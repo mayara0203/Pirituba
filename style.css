@@ -1,0 +1,104 @@
+:root{
+    --vermelho1: rgb(253, 47, 47);
+    --vermelho2: rgb(255, 83, 83);
+    --amarelo1: rgb(251, 255, 17);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 20px;
+}
+a{
+    color: var(--vermelho1);
+    transition: all 0.4s;
+}
+header{
+    padding: 25px 100px;
+    color: white;
+    background-color: var(--vermelho2);
+}
+nav{
+    position: sticky;
+    top: 0;
+    padding: 25px 100px;
+    background-color: var(--vermelho1);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+nav ul li a b{
+    color: var(--amarelo1);
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    padding: 25px;
+}
+#conteudo1 #img{
+    width: 600px;
+    border-radius: 50px;
+    padding: 25px;
+}
+#conteudo2 #img{
+    width: 600px;
+    border-radius: 50px;
+    padding: 25px
+}
+img{
+    width: 500px;
+    border-radius: 50px;
+}
+#conteudo1{
+    display: flex;
+    padding: 50px;
+}
+#conteudo2{
+    display: flex;
+    padding: 50px;
+    background-color: #cfcfcf;
+}
+#conteudo2 iframe{
+    width: 600px;
+    border-radius: 50px;
+    padding: 25px;
+}
+#botao{
+    background-color: var(--vermelho1);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+#botao:hover{
+    padding: 15px 60px;
+    background-color: var(--vermelho2);
+    color: var(--amarelo1);
+}
+a #botao:hover{
+    color: var(--amarelo1);
+}
+#finalizacao{
+    padding: 25px;
+    text-align: center;
+    background-color: #cfcfcf;
+}
+footer{
+    color: white;
+    padding: 10px;
+    background-color: var(--vermelho1);
+    text-align: center;
+}
